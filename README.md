@@ -68,12 +68,12 @@ No console do **IAM**, foi configurada uma política de senha para toda as conta
 
 ### 2. Explorando Usuários e Grupos
 
-Acesse o menu **Users** e selecione `user-1` para visualizar suas permissões.
-Observe que o usuário não possui políticas diretas aplicadas.
+Acessei o menu **Users** e selecionei `user-1` para visualizar suas permissões.
+Observei que o usuário não possui políticas diretas aplicadas.
 
 ![User-1 summary](imagens/03-user-01-summary.png)
 
-Depois, em **User groups**, analise os grupos disponíveis:
+Depois, em **User groups**, analisei os grupos disponíveis:
 
 * `EC2-Admin`
 * `EC2-Support`
@@ -103,7 +103,7 @@ Cada usuário foi adicionado ao seu respectivo grupo:
 
 #### Tela de adição de usuários a grupos:
 
-![Adição usuario](imagens/05-s3-support-user.png)![Adição usuario](06-ec2-support-user.png)
+![Adição usuario](imagens/05-s3-support-user.png)
 
 ![Adição usuario](imagens/06-ec2-support-user.png)
 
