@@ -29,17 +29,6 @@ O objetivo do laboratório foi compreender o gerenciamento de usuários, grupos 
 
 ```
 ├── imagens/
-│   ├── 01-politica-senha.png
-│   ├── 02-politica-senha-pt2.png
-│   ├── 03-user-01-summary.png
-│   ├── 04-politica-ec2-support.png
-│   ├── 05-s3-support-user.png
-│   ├── 06-ec2-support-user.png
-│   ├── 07-ec2-admin-user.png
-│   ├── 08-login-user-01.png
-│   ├── 09-login-user-02.png
-│   ├── 10-login-user-03.png
-│   ├── 11-11-funcionamento-politicas.png
 └── README.md
 ```
 
@@ -71,10 +60,9 @@ No console do **IAM**, foi configurada uma política de senha para toda as conta
 
 #### Tela de configuração:
 
-![Política de Senha](01-politica-senha.png)
+![Política de Senha](imagens/01-politica-senha.png)
 
-![Política de Senha](02-politica-senha-pt2.png)
-
+![Política de Senha](imagens/02-politica-senha-pt2.png)
 
 ---
 
@@ -83,7 +71,7 @@ No console do **IAM**, foi configurada uma política de senha para toda as conta
 Acesse o menu **Users** e selecione `user-1` para visualizar suas permissões.
 Observe que o usuário não possui políticas diretas aplicadas.
 
-![User-1 summarry](03-user-01-summary.png)
+![User-1 summary](imagens/03-user-01-summary.png)
 
 Depois, em **User groups**, analise os grupos disponíveis:
 
@@ -99,8 +87,7 @@ Cada grupo possui diferentes tipos de políticas:
 
 #### Exemplo de tela de permissões do grupo EC2-Support:
 
-![Permissões EC2-Support](04-politica-ec2-support.png)
-
+![Permissões EC2-Support](imagens/04-politica-ec2-support.png)
 
 ---
 
@@ -116,9 +103,11 @@ Cada usuário foi adicionado ao seu respectivo grupo:
 
 #### Tela de adição de usuários a grupos:
 
-![Adição usuario](05-s3-support-user.png)
-![Adição usuario](06-ec2-support-user.png)
-![Adição usuario](07-ec2-admin-user.png)
+![Adição usuario](imagens/05-s3-support-user.png)![Adição usuario](06-ec2-support-user.png)
+
+![Adição usuario](imagens/06-ec2-support-user.png)
+
+![Adição usuario](imagens/07-ec2-admin-user.png)
 
 ---
 
@@ -132,7 +121,7 @@ Para os testes, foi utilizado o **IAM user sign-in link** da conta em janelas an
 * ✔Conseguiu listar e visualizar buckets
 * ❌Tentativa de acessar EC2 resultou em **Access Denied**
 
-![Login usuario](08-login-user-01.png)
+![Login usuario](imagens/08-login-user-01.png)
 
 ---
 
@@ -141,7 +130,7 @@ Para os testes, foi utilizado o **IAM user sign-in link** da conta em janelas an
 * ✔Acesso ao **Amazon EC2** autorizado apenas para visualização
 * ❌Não foi possível parar ou iniciar instâncias
 
-![Login usuario](09-login-user-02.png)
+![Login usuario](imagens/09-login-user-02.png)
 
 ---
 
@@ -150,7 +139,7 @@ Para os testes, foi utilizado o **IAM user sign-in link** da conta em janelas an
 * ✔Permissão total sobre instâncias EC2 (inline policy)
 * ✔Conseguiu parar e iniciar instâncias
 
-![Login usuario](10-login-user-03.png)
+![Login usuario](imagens/10-login-user-03.png)
 
 ---
 
@@ -158,7 +147,7 @@ Para os testes, foi utilizado o **IAM user sign-in link** da conta em janelas an
 
 O teste prático confirmou o funcionamento correto das políticas IAM:
 
-![Funcionamento das Politicas do IAM](11-funcionamento-politicas.png)
+![Funcionamento das Politicas do IAM](imagens/11-funcionamento-politicas.png)
 
 ---
 
