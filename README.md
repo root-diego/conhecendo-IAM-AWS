@@ -163,8 +163,6 @@ O teste prático confirmou o funcionamento correto das políticas IAM:
 
 ⚠️ ***Observação***
 
-Este laboratório foi executado em um **ambiente sandbox da AWS**, com tempo limitado de uso (cerca de 3h). Após o encerramento, os recursos são automaticamente removidos.
-
 Este laboratório foi realizado em um **ambiente sandbox da AWS**, disponibilizado apenas para fins educacionais. Nesse tipo de ambiente, o acesso é temporário e os **recursos são automaticamente encerrados e excluídos ao final da sessão**.
 
 Informações como **Account ID ou nome do usuário do laboratório podem aparecer nos prints**, mas **não representam risco de segurança**, pois não pertencem a uma conta real e não permitem qualquer acesso externo.
